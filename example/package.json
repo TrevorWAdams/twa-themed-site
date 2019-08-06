@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "repository": "git@github.com:TrevorWAdams/gatsby-theme-twa-example.git",
+  "author": "trevorwadams <trevorwadams@gmail.com> (@trevorwadams)",
+  "license": "MIT",
+  "scripts": {
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "start": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.13.52",
+    
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

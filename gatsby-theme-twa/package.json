@@ -1,7 +1,6 @@
 {
   "name": "gatsby-theme-twa",
   "version": "1.0.0",
-  "private": true,
   "main": "index.js",
   "author": "trevorwadams <trevorwadams@gmail.com> (@trevorwadams)",
   "license": "MIT",
@@ -17,16 +16,13 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    
-    "gatsby": "^2.13.52",
-    
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
     "@emotion/core": "^10.0.15",
+    "@emotion/styled": "^10.0.15",
     "@mdx-js/react": "^1.1.6",
     "gatsby-plugin-emotion": "^4.1.2",
     "gatsby-plugin-theme-ui": "^0.2.29",
-    "theme-ui": "^0.2.29"
+    "gatsby-source-filesystem": "^2.1.9",
+    "theme-ui": "^0.2.31"
   },
   "devDependencies": {
     "gatsby": "^2.13.52",

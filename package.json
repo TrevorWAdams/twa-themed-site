@@ -1,18 +1,16 @@
 {
   "name": "twa-themed-site",
-  "version": "1.0.0",
   "private": true,
-  "main": "index.js",
   "author": "trevorwadams <trevorwadams@gmail.com> (@trevorwadams)",
   "license": "MIT",
   "scripts": {
     "clean": "yarn workspaces run clean",
-    "develop": "yarn workspaces example run develop",
-    "build": "yarn workspaces example run build",
-    "start": "yarn workspaces example run start"
+    "develop": "yarn workspace example develop",
+    "build": "yarn workspace example build",
+    "start": "yarn workspace example develop"
   },
   "workspaces": [
-    "packages/*",
+    "gatsby-theme-twa",
     "example"
   ]
 }
